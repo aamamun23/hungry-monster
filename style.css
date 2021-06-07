@@ -1,0 +1,12 @@
+.food-item {
+    background-color:lightgray;
+    border-radius: 10px 10px 0 0;
+}
+.food-item h4{
+    padding: 10px;
+    font-size: 18px;
+}
+#foodDetails .col-sm-6{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
