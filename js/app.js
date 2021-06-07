@@ -58,49 +58,6 @@ document.getElementById('searchBtn').addEventListener('click', function () {
                 foodDetails.innerHTML = foodItemDetails;
 
                 foodIngredients(data);
-                // const ingredients = [
-                //     'strIngredient1', 
-                //     'strIngredient2', 
-                //     'strIngredient3', 
-                //     'strIngredient4', 
-                //     'strIngredient5', 
-                //     'strIngredient6', 
-                //     'strIngredient7', 
-                //     'strIngredient8', 
-                //     'strIngredient9', 
-                //     'strIngredient10', 
-                //     'strIngredient11', 
-                //     'strIngredient12', 
-                //     'strIngredient13', 
-                //     'strIngredient14', 
-                //     'strIngredient15', 
-                //     'strIngredient16', 
-                //     'strIngredient17', 
-                //     'strIngredient18',
-                //     'strIngredient19',
-                //     'strIngredient20'];
-                //     ingredients.forEach( mealItem => {
-                //         const ingredientItems = data.meals[0];
-                //         const id = `idMeal`;
-                //         console.log(ingredientItems.id);
-                //         console.log(mealItem);
-                //         const ingredientItem = ingredientItems.mealItem
-                //         const li = document.createElement('li');
-                //         li.innerText = ingredientItem;
-                //         ul.appendChild(li);
-
-                //     });
-                // for (let i = 0; i < ingredients.length; i++) {
-            
-                //     const item = ingredients[i];
-                //     console.log(item);
-                //     const ingredientItems = data.meals[0];
-                //     const ingredientItem = ingredientItems.item
-                
-                //     const li = document.createElement('li');
-                //     li.innerText = ingredientItem;
-                //     ul.appendChild(li);
-                // }
 
             })
     }
